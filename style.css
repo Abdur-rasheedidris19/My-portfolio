@@ -16,15 +16,11 @@ body {
     align-items: center;
     justify-content: center;
 }
-
+.container .row-1 {
+  margin: 0px 30px;
+}
 .container .row-1 .row-2 img {
   object-fit: cover;
 }
 
 /* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
-    .container{
-      background-color: olive;
-    }
-  }
-    
